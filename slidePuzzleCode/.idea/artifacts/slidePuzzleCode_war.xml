@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="slidePuzzleCode:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="slidePuzzleCode.war">
+      <element id="artifact" artifact-name="slidePuzzleCode:war exploded" />
+    </root>
+  </artifact>
+</component>

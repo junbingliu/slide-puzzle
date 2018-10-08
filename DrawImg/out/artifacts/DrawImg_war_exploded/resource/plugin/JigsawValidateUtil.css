@@ -1,0 +1,109 @@
+.slide_code div{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.slide_code .slideBtn {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: background .2s linear;
+    width: 40px;
+    border-radius: 2px;
+    left: 0px;
+}
+/*.slideBtn:hover span{*/
+    /*background-position: 0 -13px !important;*/
+/*}*/
+/*.slideBtn:hover{*/
+    /*background-color: #1991fa !important;*/
+/*}*/
+.slide_code .slider-icon-black{
+    background-image: url(icon.png);
+    background-position: 0 -26px;
+    background-size: 34px 471px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 13px;
+    width: 14px;
+    height: 10px;
+    cursor: pointer;
+}
+.slide_code .slider-icon-white{
+    background-position: 0px -13px;
+}
+.slide_code .slider-icon-right{
+    background-position: 0 0px;
+}
+.slide_code .slider-icon-wrong{
+    background-position: 0 -83px;
+}
+.slide_code .backgroundImg{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 2px;
+}
+.slide_code .mattingImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: 99;
+    border-radius: 2px;
+}
+.slide_code .tips-box{
+    position: relative;
+    border: 1px solid #e4e7eb;
+    background-color: #f7f9fa;
+    height: 40px;
+    border-radius: 2px;
+}
+.slide_code .tips-box .tips{
+    line-height: 40px;
+    text-align: center;
+    color: #45494c;
+}
+#loginForm2 .slide_code{
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 300px;
+    /*min-width: 220px;*/
+    font-size: 14px;
+    -webkit-tap-highlight-color: transparent;
+}
+.slide_code .slide_indicator{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #d1e9fe;
+    border: 1px solid transparent;
+}
+.slide_code .slide-image{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.slide_code .slide-image-img{
+    position: absolute;
+    display: block;
+}
+
+.modal.fade .modal-dialog{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    border-radius: 2px;
+}
+.modal.fade .modal-dialog .modal-content{
+    border-radius: 2px;
+}

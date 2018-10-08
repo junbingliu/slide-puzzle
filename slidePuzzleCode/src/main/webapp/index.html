@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="lte_ie8" lang="zh-CN">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript" src="resource/lib/jquery-1.10.2.min.js"></script>
+    <link type="text/css" href="resource/css/login.css" rel="stylesheet">
+    <link type="text/css" href="resource/css/slideCode.css" rel="stylesheet">
+    <script type="text/javascript" src="resource/js/slideCode.js"></script>
+</head>
+<body style="background: #f5f7fa;">
+<div class="login-container">
+    <form class="login-form">
+        <h2 class="title">登录</h2>
+        <div class="form-group">
+            <div class="form-input">
+                <input type="text" name="account" class="account-input m-input" placeholder="账号/邮箱">
+            </div>
+            <div class="form-input">
+                <input type="password" name="password" class="m-input password-input" placeholder="登录密码">
+            </div>
+        </div>
+        <div class="form-group form-group-tips">
+            <div class="slide-image" id="slide_image">
+                <div class="slide-image-img">
+                    <img id="backgroundImg" alt="图片验证码" class="backgroundImg"/>
+                    <img id="mattingImg" class="mattingImg"/>
+                </div>
+            </div>
+            <div class="tips-box">
+                <div class="tips">
+                    <span>向右滑动滑块填充拼图</span>
+                </div>
+                <div class="slide_indicator" id="slide_indicator"></div>
+                <div class="slideBtn" id="slideBtn">
+                    <span id="slide_icon" class="slider-icon-black"></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="m-btn m-btn-primary m-btn-large m-btn-submit">登&nbsp;&nbsp;录</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

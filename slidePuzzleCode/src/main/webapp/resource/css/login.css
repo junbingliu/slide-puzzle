@@ -1,0 +1,92 @@
+.login-container{
+    box-sizing: border-box;
+    width: 405px;
+    height: 476px;
+    padding-top: 30px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-form{
+    width: 325px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+}
+.title{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: center;
+    color: #222;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.form-input{
+    margin: 20px 0;
+}
+.form-input .m-input{
+    padding-right: 32px;
+    padding-left: 40px;
+    width: 325px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #333;
+    padding: 0 2em 0 1em;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: border 200ms;
+    -webkit-appearance: none;
+}
+.m-input:focus{
+    border-color: #4486e9;
+    -webkit-box-shadow: 0 0px 2px #4486e9;
+    -moz-box-shadow: 0 0px 2px #4486e9;
+    box-shadow: 0 0px 2px #4486e9;
+}
+.account-input{
+
+}
+.form-group{
+    margin: 20px 0;
+}
+.m-btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #fff;
+    background: #5f99f1;
+}
+.m-btn-large {
+    width: 325px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+}
+.login-form .m-btn-submit {
+    display: block;
+    margin: 0 auto;
+}
+
+.m-btn-submit {
+    margin-top: 10px;
+}
+.m-btn-primary {
+    color: #fff;
+    background: #387ee8;
+}
+a, button {
+    cursor: pointer;
+}
+body, button, input, keygen, legend, select, textarea {
+    font: 14px/1.3 PingFangSC-Light,PingFang SC,Helvetica,Tahoma,Arial,Microsoft YaHei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+    color: #222;
+    outline: 0;
+}

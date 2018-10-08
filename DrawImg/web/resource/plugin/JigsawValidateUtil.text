@@ -1,0 +1,34 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    请完成安全验证
+                </h4>
+            </div>
+            <div class="modal-body">
+                <!--滑块图片验证码-->
+                <div class="slide_code" id="slide_bar">
+                    <div class="slide-image" id="slide_image">
+                        <div class="slide-image-img">
+                            <img id="backgroundImg" alt="图片验证码" class="backgroundImg"/>
+                            <img id="mattingImg" class="mattingImg"/>
+                        </div>
+                    </div>
+                    <div class="tips-box">
+                        <div class="tips">
+                            <span>向右滑动滑块填充拼图</span>
+                        </div>
+                        <div class="slide_indicator" id="slide_indicator"></div>
+                        <div class="slideBtn" id="slideBtn">
+                            <span id="slide_icon" class="slider-icon-black"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
